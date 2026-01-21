@@ -25,11 +25,7 @@ def gestion_usuarios ():
             print("Proceso finalizado por el usuario.")
     except Exception:
             print("Ocurrio un error inesperado.") 
-    if tipo_usuario == 1:
-        print("Modo Administrado Activado")
-    elif tipo_usuario == 2:
-        print("Modo Residente Activado")
-
+            
     diccionario = {
         "nombre": name,
         "id": id_veci,
